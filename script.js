@@ -10,5 +10,6 @@ for (let i=1; i<=9; i++){
 
 bouton1 = document.getElementById('case1');
 bouton1.addEventListener("click", (e) => {
-    alert("click");
+    alert(e.target);
+    console.log(e.target);
 });
