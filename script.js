@@ -20,3 +20,9 @@ b.forEach(item => {
 
 
 
+// Exemple pour François
+
+let page = document.getElementById("body");
+page.addEventListener("click", ev =>{
+    alert(ev.clientX);
+});
