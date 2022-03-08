@@ -23,6 +23,6 @@ b.forEach(item => {
 // Exemple pour François
 
 let page = document.getElementById("body");
-page.addEventListener("click", ev =>{
-    alert(ev.clientX);
+page.addEventListener("mousemove", ev =>{
+    console.log(ev.clientX, ev.clientY);
 });
